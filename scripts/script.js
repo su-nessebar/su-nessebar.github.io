@@ -47,6 +47,9 @@ let menuIcon = document.getElementById('menu-icon'),
 menuIcon.addEventListener('click', function() {
   this.classList.toggle('change-menu');
   navbar.classList.toggle('responsive');
+  for (let i of document.getElementsByClassName('dropbtn')) {
+    if (i.parentElement.dataset.isopen == 'true') {i.click()}
+  }
 });
 
 // Back to top
