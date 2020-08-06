@@ -1,0 +1,26 @@
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+.swiper-button-prev, .swiper-button-next {
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+  transform: scale(0.5);
+}
+.swiper-pagination-bullet {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
