@@ -108,11 +108,8 @@ a:visited {
   color: #006599;
   text-decoration: none;
 }
-.location:last-child {
-  text-decoration: none;
-}
 .location a:visited {
-  color: #006599;;
+  color: #006599;
 }
 p {
   font-size: 1.3em;
