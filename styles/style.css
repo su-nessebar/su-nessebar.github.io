@@ -111,8 +111,8 @@ a:visited {
 .location:last-child {
   text-decoration: none;
 }
-.location:visited {
-  color: inherit;
+.location a:visited {
+  color: #006599;;
 }
 p {
   font-size: 1.3em;
