@@ -22,24 +22,17 @@ window.addEventListener('load', function() {
       dropsbtns = document.getElementsByClassName('dropbtn');
     for (let i = 0; i < drops.length; i++) {
       drops[i].classList.remove('not-mobile');
-
       dropsbtns[i].addEventListener('click', function() {
         if (drops[i].dataset.isopen == 'false') {
-
           this.nextElementSibling.style.display = 'block';
-
           drops[i].dataset.isopen = 'true';
-
         } else {
-
           this.nextElementSibling.style.display = 'none';
-          
           drops[i].dataset.isopen = 'false';
         }
       });
     }
 });
-
 // Menu
 let menuIcon = document.getElementById('menu-icon'),
     navbar = document.getElementById('navigation');
@@ -70,5 +63,5 @@ function showBackToTopButton() {
 backBtn.addEventListener('click', function() {
   $('html, body').animate({
     scrollTop: 0
-  }, 400);
+  }, 250, 'linear');
 });

@@ -8,15 +8,17 @@ let mySwiper = new Swiper('.swiper-container', {
     type: 'bullets',
     clickable: true,
   },
+  autoHeight: false,
   effect: 'slide',
   centeredSlides: true,
   spaceBetween: 10,
+  mousewheel: true,
   autoplay: {
     delay: 5000,
   },
   keyboard: {
     enabled: true,
-    onlyInViewport: false,
+    onlyInViewport: true,
   },
   preloadImages: false,
   lazy: true,

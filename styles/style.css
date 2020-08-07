@@ -104,6 +104,10 @@ a:visited {
   color: #006599;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+.location a {
+  color: #006599;
+  text-decoration: none;
+}
 .location:last-child {
   text-decoration: none;
 }

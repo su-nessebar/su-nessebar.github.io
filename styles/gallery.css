@@ -3,7 +3,7 @@
   height: auto;
 }
 .swiper-wrapper {
-  align-items: center;
+  align-items: flex-end;
 }
 .swiper-button-prev, .swiper-button-next {
   outline: none;
