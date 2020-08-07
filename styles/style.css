@@ -93,9 +93,6 @@ body {
 }
 
 /* Information */
-a:visited {
-  color: #fff;
-}
 .location {
   font-size: 0.8em;
   text-align: left;
