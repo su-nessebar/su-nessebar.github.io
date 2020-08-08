@@ -50,6 +50,7 @@ body {
 #content {
   width: 95%;
   margin: 0 auto 50px auto;
+  min-height: 600px;
 }
 #footer {
   width: 100%;
@@ -116,6 +117,7 @@ p {
 }
 p a {
   color: #006599;
+  text-decoration: none;
 }
 p a:visited {
   color: #006599;
