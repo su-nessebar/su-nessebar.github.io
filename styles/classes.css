@@ -1,11 +1,11 @@
-.wrap-classes {
+#wrap-classes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
-.wrap-classes > div {
+#wrap-classes > div {
   margin: 0 20px 0 20px;
   padding: 10px;
 }

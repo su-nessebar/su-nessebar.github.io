@@ -1,7 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-*::selection {
+::selection {
   background-color: #006599;
   color: #fff;
 }
@@ -240,6 +240,7 @@ h3 {
   z-index: 2;
   animation: growDown 250ms ease-in-out forwards;
   transform-origin: top center;
+  border-bottom: 1px solid #919191;
 }
 .dropdown-content a {
   display: block;
