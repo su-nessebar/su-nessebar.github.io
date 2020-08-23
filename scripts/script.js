@@ -33,6 +33,7 @@ window.addEventListener('load', function() {
       });
     }
 });
+
 // Menu
 let menuIcon = document.getElementById('menu-icon'),
     navbar = document.getElementById('navigation');
