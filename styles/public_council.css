@@ -1,12 +1,1 @@
-ul {
-  font-size: 1.3em;
-  list-style: none;
-}
-li::before {
-  content: "•";
-  padding-right: 8px;
-  color: #161616;
-}
-b {
-  font-weight: 600;
-}
+ul{font-size:1.3em;list-style:none}li::before{content:"•";padding-right:8px;color:#161616}b{font-weight:600}
