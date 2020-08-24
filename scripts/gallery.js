@@ -20,6 +20,7 @@ let mySwiper = new Swiper('.swiper-container', {
     enabled: true,
     onlyInViewport: true,
   },
+  disableOnInteraction: false,
   preloadImages: false,
   lazy: true,
   navigation: {
@@ -35,6 +36,8 @@ let mySwiper = new Swiper('.swiper-container', {
     }
   }
 });
+
+/* 
 document.getElementsByClassName('swiper-container')[0].addEventListener('mouseenter', function() {
   mySwiper.autoplay.stop();
 });
@@ -42,3 +45,4 @@ document.getElementsByClassName('swiper-container')[0].addEventListener('mouseen
 document.getElementsByClassName('swiper-container')[0].addEventListener('mouseleave',function() {
   mySwiper.autoplay.start();
 });
+*/
