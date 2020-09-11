@@ -1,7 +1,16 @@
 // AOS
-AOS.init({
-  once: true
-});
+try {
+  AOS.init({
+    once: true,
+    anchorPlacement: 'top-bottom',
+  });
+} catch {
+  for (let i of document.getElementsByTagName('img')) {
+    i.removeAttribute('data-aos')
+  }
+  console.log('Error: AOS can\'t be loaded');
+}
+
 
 // Check for touchscreen
 window.addEventListener('load', function() {
